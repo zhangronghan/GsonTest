@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.gsontest.MainActivity">
+
+    <EditText
+        android:id="@+id/edt_text"
+        android:hint="输入手机号码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打电话"/>
+
+    <Button
+        android:id="@+id/btn_json1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON组装json"/>
+
+    <Button
+        android:id="@+id/btn_json2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON解析json"/>
+
+    <Button
+        android:id="@+id/btn_gson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GSON解析gson"/>
+
+    <TextView
+        android:id="@+id/tv_txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
